@@ -1,3 +1,8 @@
+<!-- Top GIF -->
+<p align="center">
+  <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWp3a2g2cGhla21lbzJtYnJidXJ4MXV0cG82djlzcGpjOWU5aWJiZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/66M6ZwJkTLYikvhrqZ/giphy.gif" alt="Top GIF"/>
+</p>
+
 <!-- Top Section with GIF and Concise About Me -->
 <table>
   <tr>
