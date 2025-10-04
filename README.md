@@ -1,6 +1,7 @@
 <div align="center">
   <img src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3Z3hqaTh4M3h0bzJuMDFkNW52NXl3ZzBiYzMwZDF1OW9jYnp0czZubiZlcD12MV9naWZzX3JlbGF0ZWQmY3Q9Zw/cNREyZCeJNOgJgxiWk/giphy.gif" width="250">
   <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWp3a2g2cGhla21lbzJtYnJidXJ4MXV0cG82djlzcGpjOWU5aWJiZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/66M6ZwJkTLYikvhrqZ/giphy.gif" width="250">
+  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcmJmeWVjdHA2YnNqeWs4azlzeWt5aHB5eGZoemIxcnVzZXdhcjJoaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/gXr3j6YAClXFfZABn5/giphy.gif" width="250">
 </div>
 
 # 💫 About Me:
