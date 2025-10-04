@@ -7,7 +7,7 @@
     </td>
     <td>
       <p align="right">
-        <strong>🎓 Final-year IT Engineering Student | 💡 Passionate about Java, Android, and Web Development | 🔐 Completed internships in Java Development and Cybersecurity | ⚙️ Skilled in Java, React.js, Node.js, MongoDB, Firebase, Flutter, and Android Studio</strong>
+        <strong>🎓 Final-year IT Engineering Student | 💡 Passionate about Java, Android, and Web Development | 🔐 Completed internships in Java Development and Cybersecurity | ⚙️ Skilled in Java, React.js, Node.js, MongoDB, Firebase, Flutter, and Android Studio | 🌐 Web Developer (MERN & Next.js) | 📱 Android Developer (Java, Kotlin, Flutter)</strong>
       </p>
     </td>
   </tr>
