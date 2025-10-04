@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nikhil's Tech Stack - 3D Circular Display</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: #0d1117;
+            color: #c9d1d9;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container {
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+            color: #58a6ff;
+        }
+
+        .carousel-container {
+            position: relative;
+            width: 100%;
+            height: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            perspective: 1000px;
+        }
+
+        .carousel {
+            position: relative;
+            width: 300px;
+            height: 300px;
+            transform-style: preserve-3d;
+            transition: transform 0.5s ease;
+        }
+
+        .tech-item {
+            position: absolute;
+            width: 120px;
+            height: 40px;
+            background: rgba(22, 27, 34, 0.8);
+            border: 1px solid #30363d;
+            border-radius: 8px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            cursor: pointer;
+            font-size: 0.7rem;
+            font-weight: 500;
+            padding: 5px;
+            text-align: center;
+        }
+
+        .tech-item:hover {
+            transform: scale(1.2) translateZ(20px);
+            background: rgba(56, 139, 253, 0.2);
+            border-color: #58a6ff;
+            font-size: 0.85rem;
+            z-index: 10;
+            box-shadow: 0 0 15px rgba(88, 166, 255, 0.5);
+        }
+
+        .controls {
+            margin-top: 30px;
+        }
+
+        .btn {
+            background: #238636;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: background 0.2s;
+        }
+
+        .btn:hover {
+            background: #2ea043;
+        }
+
+        .btn:active {
+            transform: scale(0.98);
+        }
+
+        .speed-control {
+            margin-top: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .speed-control label {
+            font-size: 0.9rem;
+        }
+
+        .speed-control input {
+            width: 200px;
+        }
+
+        .instructions {
+            margin-top: 30px;
+            font-size: 0.9rem;
+            color: #8b949e;
+            max-width: 600px;
+            line-height: 1.6;
+        }
+
+        @media (max-width: 768px) {
+            .carousel-container {
+                height: 400px;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .tech-item {
+                width: 100px;
+                height: 35px;
+                font-size: 0.6rem;
+            }
+            
+            .tech-item:hover {
+                font-size: 0.75rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 My Tech Stack - 3D Circular Display</h1>
+        
+        <div class="carousel-container">
+            <div class="carousel" id="techCarousel"></div>
+        </div>
+        
+        <div class="controls">
+            <button class="btn" id="prevBtn">◀ Previous</button>
+            <button class="btn" id="nextBtn">Next ▶</button>
+            <button class="btn" id="toggleBtn">⏸ Pause</button>
+        </div>
+        
+        <div class="speed-control">
+            <label for="speedSlider">Rotation Speed:</label>
+            <input type="range" id="speedSlider" min="1" max="20" value="5">
+        </div>
+        
+        <div class="instructions">
+            <p>Hover over any technology to see it enlarge and move forward. Use the buttons to manually rotate the carousel or pause the automatic rotation.</p>
+        </div>
+    </div>
+
+    <script>
+        // Tech stack data extracted from your README
+        const techStack = [
+            "Apache Groovy", "AssemblyScript", "C", "C#", "C++", "CSS3", "Dart", "Dgraph",
+            "GraphQL", "HTML5", "Java", "JavaScript", "Julia", "Kotlin", "Markdown", "PHP",
+            "PowerShell", "Python", "ReScript", "TypeScript", "Swift", "Windows Terminal",
+            "AWS", "Google Cloud", "Heroku", "Vercel", "Render", "Firebase", "Angular",
+            "Angular.js", "Django", "Drupal", "EJS", "Context-API", "nVIDIA", "Bootstrap",
+            "Express.js", "FastAPI", "Flutter", "JavaFX", "jQuery", "JWT", "NPM", "NestJS",
+            "Mantine", "Next JS", "NodeJS", "Nodemon", "Radix UI", "React", "React Native",
+            "React Query", "React Router", "React Hook Form", "Redux", "SolidJS", "Socket.io",
+            "Snowflake", "Semantic UI React", "SASS", "RxJS", "RxDB", "RollupJS", "Spring",
+            "Strapi", "TailwindCSS", "Streamlit", "Stylus", "Svelte", "Vite", "Windicss",
+            "WordPress", "Web3.js", "WebGL", "Webpack", "Apache Airflow", "Jenkins",
+            "AmazonDynamoDB", "Appwrite", "Arango DB", "MongoDB", "MySQL", "MicrosoftSQLServer",
+            "Postgres", "PocketBase", "PlanetScale", "Realm", "Single Store", "SQLite",
+            "Supabase", "Prisma", "Teradata", "Adobe Premiere Pro", "Canva", "Blender",
+            "Adobe Photoshop", "Sketch", "NumPy", "Keras", "Matplotlib", "Pandas", "Plotly",
+            "PyTorch", "scikit-learn", "Scipy", "TensorFlow", "mlflow", "Git", "GitHub Actions",
+            "GitLab CI", "Fastlane", "GitLab", "Gitpod"
+        ];
+
+        const carousel = document.getElementById('techCarousel');
+        const prevBtn = document.getElementById('prevBtn');
+        const nextBtn = document.getElementById('nextBtn');
+        const toggleBtn = document.getElementById('toggleBtn');
+        const speedSlider = document.getElementById('speedSlider');
+
+        let radius = 150;
+        let angle = 0;
+        let rotationSpeed = 5;
+        let autoRotate = true;
+        let rotateInterval;
+
+        // Create tech items in a circular arrangement
+        function createTechItems() {
+            carousel.innerHTML = '';
+            const itemCount = techStack.length;
+            
+            for (let i = 0; i < itemCount; i++) {
+                const item = document.createElement('div');
+                item.className = 'tech-item';
+                item.textContent = techStack[i];
+                
+                // Calculate position in circle
+                const itemAngle = (i / itemCount) * Math.PI * 2;
+                const x = Math.cos(itemAngle) * radius;
+                const z = Math.sin(itemAngle) * radius;
+                
+                item.style.transform = `translateX(${x}px) translateZ(${z}px)`;
+                
+                carousel.appendChild(item);
+            }
+        }
+
+        // Rotate the carousel
+        function rotateCarousel() {
+            if (autoRotate) {
+                angle += rotationSpeed / 100;
+                carousel.style.transform = `rotateY(${angle}rad)`;
+            }
+        }
+
+        // Start auto rotation
+        function startRotation() {
+            clearInterval(rotateInterval);
+            rotateInterval = setInterval(rotateCarousel, 30);
+        }
+
+        // Event listeners
+        prevBtn.addEventListener('click', () => {
+            angle -= 0.3;
+            carousel.style.transform = `rotateY(${angle}rad)`;
+        });
+
+        nextBtn.addEventListener('click', () => {
+            angle += 0.3;
+            carousel.style.transform = `rotateY(${angle}rad)`;
+        });
+
+        toggleBtn.addEventListener('click', () => {
+            autoRotate = !autoRotate;
+            toggleBtn.textContent = autoRotate ? '⏸ Pause' : '▶ Play';
+        });
+
+        speedSlider.addEventListener('input', () => {
+            rotationSpeed = parseInt(speedSlider.value);
+        });
+
+        // Initialize
+        createTechItems();
+        startRotation();
+
+        // Handle window resize
+        window.addEventListener('resize', () => {
+            radius = Math.min(window.innerWidth / 3, 200);
+            createTechItems();
+        });
+    </script>
+</body>
+</html>
