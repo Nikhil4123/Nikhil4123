@@ -18,13 +18,21 @@
 </table>
 
 <!-- 📊 GitHub Stats -->
-<div align="center">
-<img src="https://nirzak-streak-stats.vercel.app/?user=Nikhil4123&theme=dark&hide_border=true" height="150em"/>
- <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nikhil4123&theme=dark&hide_border=true&include_all_commits=true&count_private=true&layout=compact" height="150em"/>
-  <img src="https://github-readme-stats.vercel.app/api?username=Nikhil4123&theme=dark&hide_border=true&include_all_commits=true&count_private=true" height="150em"/>
- 
-  
-</div>
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="https://github-readme-stats.vercel.app/api?username=Nikhil4123&theme=dark&hide_border=true&include_all_commits=true&count_private=true" height="150em"/>
+    </td>
+    <td align="center">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nikhil4123&theme=dark&hide_border=true&include_all_commits=true&count_private=true&layout=compact" height="150em"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" colspan="2">
+      <img src="https://nirzak-streak-stats.vercel.app/?user=Nikhil4123&theme=dark&hide_border=true" height="150em"/>
+    </td>
+  </tr>
+</table>
 
 ## 🌐 Socials:
 [![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/nick.8178) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/nikhil.) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/nikhilsarak/) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:nikhilsarak612w@gmail.com) 
