@@ -4,14 +4,14 @@
 </p>
 
 # 💫 About Me:
-🎓 Final-year IT Engineering Student<br>
-💡 Passionate about Java, Android, and Web Development<br>
-🔐 Completed internships in Java Development and Cybersecurity<br>
-⚙️ Skilled in Java, React.js, Node.js, MongoDB, Firebase, Flutter, and Android Studio<br>
-🧠 Built a Finance Tracker App using message scraping & custom encryption<br>
-🌐 Developed a Book-Selling Website and a Job Portal Backend<br>
-🚀 Always exploring new technologies & building creative projects<br>
-🤝 Love collaborating with tech-minded people and learning through teamwork<br>
+🎓 Final-year IT Engineering Student
+💡 Passionate about Java, Android, and Web Development
+🔐 Completed internships in Java Development and Cybersecurity
+⚙️ Skilled in Java, React.js, Node.js, MongoDB, Firebase, Flutter, and Android Studio
+🧠 Built a Finance Tracker App using message scraping & custom encryption
+🌐 Developed a Book-Selling Website and a Job Portal Backend
+🚀 Always exploring new technologies & building creative projects
+🤝 Love collaborating with tech-minded people and learning through teamwork
 📫 Reach me at: [https://www.linkedin.com/in/nikhilsarak/]
 
 
