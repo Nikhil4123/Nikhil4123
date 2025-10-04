@@ -1,12 +1,18 @@
-<!-- GIFs at the top -->
-<p align="center">
-  <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWp3a2g2cGhla21lbzJtYnJidXJ4MXV0cG82djlzcGpjOWU5aWJiZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/66M6ZwJkTLYikvhrqZ/giphy.gif" alt="Top GIF"/>
-</p>
+<!-- Top Section with GIF and Concise About Me -->
+<table>
+  <tr>
+    <td width="200">
+      <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcmJmeWVjdHA2YnNqeWs4azlzeWt5aHB5eGZoemIxcnVzZXdhcjJoaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/gXr3j6YAClXFfZABn5/giphy.gif" width="200" />
+    </td>
+    <td>
+      <p align="right">
+        <strong>🎓 Final-year IT Engineering Student | 💡 Passionate about Java, Android, and Web Development | 🔐 Completed internships in Java Development and Cybersecurity | ⚙️ Skilled in Java, React.js, Node.js, MongoDB, Firebase, Flutter, and Android Studio</strong>
+      </p>
+    </td>
+  </tr>
+</table>
 
-# 💫 About Me:
-🎓 Final-year IT Engineering Student<br><br>💡 Passionate about Java, Android, and Web Development<br><br>🔐 Completed internships in Java Development and Cybersecurity<br><br>⚙️ Skilled in Java, React.js, Node.js, MongoDB, Firebase, Flutter, and Android Studio<br><br>🧠 Built a Finance Tracker App using message scraping & custom encryption<br><br>🌐 Developed a Book-Selling Website and a Job Portal Backend<br><br>🚀 Always exploring new technologies & building creative projects<br><br>🤝 Love collaborating with tech-minded people and learning through teamwork<br><br>📫 Reach me at: [https://www.linkedin.com/in/nikhilsarak/]
-
-<!-- 📊 GitHub Stats (Just Below About Me) -->
+<!-- 📊 GitHub Stats -->
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Nikhil4123&theme=dark&hide_border=true&include_all_commits=true&count_private=true" height="150em"/>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nikhil4123&theme=dark&hide_border=true&include_all_commits=true&count_private=true&layout=compact" height="150em"/>
