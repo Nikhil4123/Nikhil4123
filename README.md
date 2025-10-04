@@ -9,9 +9,9 @@
 🤝 Love collaborating with tech-minded people and learning through teamwork<br><br>
 📫 Reach me at: [https://www.linkedin.com/in/nikhilsarak/]
 
-<!-- 🔥 GitHub Streak Stats at Top -->
+<!-- 🔥 GIF at Top -->
 <p align="center">
-  <img src="https://nirzak-streak-stats.vercel.app/?user=Nikhil4123&theme=dark&hide_border=true" alt="GitHub Streak Stats"/>
+  <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWp3a2g2cGhla21lbzJtYnJidXJ4MXV0cG82djlzcGpjOWU5aWJiZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/66M6ZwJkTLYikvhrqZ/giphy.gif" alt="Top GIF"/>
 </p>
 
 ---
@@ -33,10 +33,10 @@
 ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-<!-- 📊 GitHub Stats in the Middle -->
+<!-- 📊 Other GIFs -->
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Nikhil4123&theme=dark&hide_border=true&include_all_commits=true&count_private=true" height="180em"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nikhil4123&theme=dark&hide_border=true&include_all_commits=true&count_private=true&layout=compact" height="180em"/>
+  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcmJmeWVjdHA2YnNqeWs4azlzeWt5aHB5eGZoemIxcnVzZXdhcjJoaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/gXr3j6YAClXFfZABn5/giphy.gif" height="180em"/>
+  <img src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3Z3hqaTh4M3h0bzJuMDFkNW52NXl3ZzBiYzMwZDF1OW9jYnp0czZubiZlcD12MV9naWZzX3JlbGF0ZWQmY3Q9Zw/cNREyZCeJNOgJgxiWk/giphy.gif" height="180em"/>
 </p>
 
 ---
