@@ -2,11 +2,8 @@
 <!-- Top Section with GIF and Concise About Me -->
 <table>
   <tr>
-    <td width="200">
-      <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcmJmeWVjdHA2YnNqeWs4azlzeWt5aHB5eGZoemIxcnVzZXdhcjJoaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/gXr3j6YAClXFfZABn5/giphy.gif" width="200" />
-    </td>
     <td>
-      <p align="right">
+      <p align="left">
         <strong>🎓 Final-year IT Engineering Student | 💡 Passionate about Java, Android, and Web Development | 🔐 Completed internships in Java Development and Cybersecurity | ⚙️ Skilled in Java, React.js, Node.js, MongoDB, Firebase, Flutter, and Android Studio | 🌐 Web Developer (MERN & Next.js) | 📱 Android Developer (Java, Kotlin, Flutter)</strong>
       </p>
     </td>
